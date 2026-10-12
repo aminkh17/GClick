@@ -1,0 +1,33 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Local configuration, calibration data, and diagnostics
+.env
+.env.*
+!.env.example
+config.json
+template.npz
+templates.npz
+.acoustic-click-controller/
+*.log
+recordings/
+
+# macOS metadata
+.DS_Store

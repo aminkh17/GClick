@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+template.npz
+templates.npz
+.DS_Store
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+.acoustic-click-controller/
+*.log
+rust/target/
